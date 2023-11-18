@@ -1,0 +1,30 @@
+@import "../../../assets/var.scss";
+
+.content{
+    padding: 30px;
+}
+
+
+
+.btn{
+    width: 460px;
+    padding: 30px 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+    color:$main-color;
+    font-weight: 600;
+    font-size: 24px;
+    border: none;
+
+    transition: all .3s ease-in;
+
+    &:hover{
+        background-color: #ebe9e9;
+        color:#000;
+    }
+}
+
+

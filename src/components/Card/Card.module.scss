@@ -1,0 +1,216 @@
+@import "../../assets/var.scss";
+
+.card {
+  position: relative;
+  color: #fff;
+  width: 320px;
+  background-color: $secondary-color;
+  padding: 20px;
+  border-radius: 12px;
+  justify-self: center;
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  transition: box-shadow .3s ease-in-out;
+
+  &:hover{
+    box-shadow: 0px 4px 20px rgba($color: #000000, $alpha: .7);
+  }
+}
+.favorite {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: none;
+  border: 2px solid #fff;
+
+  transition: all 0.3s ease-in;
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+    height: 32px;
+    path{
+          transition: all 0.3s ease-in;
+    }
+  }
+
+  &:hover {
+    background-color: $secondary-color;
+    .activeFavorite {
+      fill: #fff;
+    }
+    svg {
+      transform: translate(-50%, -50%);
+      path {
+        stroke: #fff;
+      }
+    }
+  }
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-bottom: 20px;
+
+  div{
+    display: flex;
+    gap: 10px;
+  }
+}
+.productsBtn {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.btnAdd {
+  width: 42px;
+  height: 42px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: transparent;
+  @extend %flex-center;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  transition: all 0.4s ease-in;
+
+  &:hover {
+    background-color: #fff;
+    svg {
+      fill: $secondary-color;
+      path {
+        fill: $secondary-color;
+        stroke: $secondary-color;
+      }
+    }
+  }
+}
+.btnInfo {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 20px;
+  width: 160px;
+  height: 48px;
+
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #fff;
+
+  transition: all 0.4s ease-in;
+
+  &:hover {
+    background-color: #fff;
+    color: $secondary-color;
+  }
+}
+
+.content {
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+
+  img {
+    width: 500px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+}
+.close{
+  cursor: pointer;
+  position: absolute;
+  top: -60px;
+  right: -60px;
+
+  img{
+    width: 64px;
+    height: 64px;
+  }
+}
+.modalPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+
+  button {
+    width: 160px;
+    height: 52px;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition: all .4s ease-in;
+
+    &:hover{
+      background-color: #fff;
+      color:$main-color;
+    }
+  }
+
+  p {
+    width: 300px;
+    min-height: 52px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align: end;
+  }
+}
+
+.modalIndo {
+  h2 {
+    font-size: 36px;
+    line-height: 96%;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.activeFavorite {
+  fill: #f8a7b6;
+}
+
+.activeAdded {
+  fill: #999;
+}

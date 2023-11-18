@@ -1,0 +1,96 @@
+@import "../../assets/var.scss";
+
+.inner {
+  overflow-x: hidden;
+  color: $main-color;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 30px 20px 30px;
+
+  border-bottom: 1px solid $main-color;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  span {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  li {
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+  }
+
+  a{
+    padding-bottom: 2px;
+  }
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  button, a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background-color: transparent;
+    color:inherit;
+    font-size: inherit;
+    font-weight: inherit;
+
+    span {
+      font-size: 18px;
+    }
+  }
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.active {
+  // border-bottom:2px solid $main-color;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: $main-color;
+
+    position: absolute;
+    bottom: 0;
+    animation: border .3s
+  }
+}
+
+.activeFavorite{
+  svg{
+    fill:$main-color;
+  }
+}
+
+@keyframes border {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

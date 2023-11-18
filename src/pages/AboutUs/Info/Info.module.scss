@@ -1,0 +1,55 @@
+@import "../../../assets/var.scss";
+
+.content{
+    background-color: #fff;
+}
+.title{
+    color:$main-color;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.info{
+
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    background-image:url("./img/lines.png") ;
+    padding: 20px 30px;
+}
+.text{
+    background-color: #fff;
+    color:$main-color;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 520px;
+    width: 100%;
+
+    p{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+}
+.decor{
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    background-color: #6DCCBB;
+    position: relative;
+
+
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+}

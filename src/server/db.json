@@ -1,0 +1,207 @@
+{
+  "items": [
+    {
+      "image": "./img/img-1.jpg",
+      "title": "chocolate glazed doughnut",
+      "price": "2.00",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 1
+    },
+    {
+      "image": "./img/img-2.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 2
+    },
+    {
+      "image": "./img/img-3.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 3
+    },
+    {
+      "image": "./img/img-2.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 4
+    },
+    {
+      "image": "./img/img-3.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 5
+    },
+    {
+      "image": "./img/img-1.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 6
+    },
+    {
+      "image": "./img/img-2.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 7
+    },
+    {
+      "image": "./img/img-1.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 8
+    },
+    {
+      "image": "./img/img-1.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 9
+    },
+    {
+      "image": "./img/img-1.jpg",
+      "title": "chocolate glazed doughnut",
+      "price": "2.00",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 10
+    },
+    {
+      "image": "./img/img-2.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 11
+    },
+    {
+      "image": "./img/img-3.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 12
+    },
+    {
+      "image": "./img/img-2.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 13
+    },
+    {
+      "image": "./img/img-3.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 14
+    },
+    {
+      "image": "./img/img-1.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 15
+    },
+    {
+      "image": "./img/img-2.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 16
+    },
+    {
+      "image": "./img/img-1.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 17
+    },
+    {
+      "image": "./img/img-1.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 18
+    },
+    {
+      "image": "./img/img-1.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 19
+    },
+    {
+      "image": "./img/img-2.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 20
+    },
+    {
+      "image": "./img/img-2.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 21
+    },
+    {
+      "image": "./img/img-2.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 22
+    }
+  ],
+  "cart": [],
+  "order": [
+    {
+      "id": 1,
+      "orders": [
+        {
+          "title": "chocolate glazed doughnut",
+          "image": "./img/img-1.jpg",
+          "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+          "id": 1,
+          "price": "2.00",
+          "count": 3
+        },
+        {
+          "title": "strawberry glazed doughnut",
+          "image": "./img/img-2.jpg",
+          "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+          "id": 4,
+          "price": "1.80",
+          "count": 5
+        }
+      ],
+      "total": "16.00",
+      "date": "18.10.2023 19:32"
+    }
+  ],
+  "favorites": [
+    {
+      "image": "./img/img-2.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 2
+    },
+    {
+      "image": "./img/img-3.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 3
+    },
+    {
+      "image": "./img/img-3.jpg",
+      "title": "strawberry glazed doughnut",
+      "price": "1.80",
+      "info": "The donut was made in London, in a donut place factory. The ingredients used were all natural. The special approach of our company is characterized by the fact that all ingredients for this product were obtained at the company itself. This donut is made from natural dough. Chocolate was used as a glaze. The chocolate is dark, bitter. The whole doughnut is sprinkled with sprinkles.",
+      "id": 5
+    }
+  ]
+}

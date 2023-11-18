@@ -1,0 +1,23 @@
+@import "../../../assets/var.scss";
+
+.content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.title{
+    margin-left: auto;
+    display: block;
+    text-align: end;
+    font-size: 36px;
+    color:$main-color;
+    font-weight: 600;
+}
+

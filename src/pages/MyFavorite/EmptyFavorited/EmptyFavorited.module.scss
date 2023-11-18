@@ -1,0 +1,45 @@
+@import "../../../assets/var.scss";
+
+
+.title{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+.decor{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    width: 680px;
+    height: 680px;
+    border-radius: 50%;
+    background-color: #FFCBD4;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.image{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+    // transform: translate(-50%, -50%);
+}
+.subtitle{
+    position: relative;
+    padding-top: 600px;
+    font-size: 36px;
+    font-weight: 600;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.text{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 630px;
+    margin: 0 auto;
+}

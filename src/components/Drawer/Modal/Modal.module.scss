@@ -1,0 +1,119 @@
+@import "../../../assets/var.scss";
+
+
+.content{
+  position: relative;
+    min-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+  
+    img{
+      width: 500px;
+      height: 360px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+  }
+  .close{
+    cursor: pointer;
+    position: absolute;
+    top: -60px;
+    right: -60px;
+  
+    img{
+      width: 64px;
+      height: 64px;
+    }
+  }
+  .select {
+    width: 100%;
+    height: 52px;
+    border:none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 24px;
+    color:$main-color;
+    outline: none;
+  }
+  .modalPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  
+    button{
+      width: 160px;
+      height: 52px;
+      color:#fff;
+      font-size: 20px;
+      border: 2px solid #fff;
+      border-radius: 8px;
+      padding: 10px 20px;
+      background-color: transparent;
+    }
+  
+    p{
+      width: 300px;
+      min-height: 52px;
+      color:#fff;
+      font-size: 20px;
+      padding: 10px 0px;
+      text-align: end;
+    }
+  }
+  
+  .modalIndo{
+    h2{
+      font-size: 36px;
+      line-height: 96%;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    p{
+      margin-bottom: 12px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+
+  .select{
+    margin-bottom: 30px;
+}
+.menu{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 100%;
+
+    span{
+        flex: 1 1;
+        width: 100%;
+        height: 100%;
+        border-bottom:1px solid #fff;
+    }
+
+}
+
+
+.btn{
+    margin-top: 40px;
+    width: 460px;
+    padding: 30px 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    background-color: #fff;
+    color:$main-color;
+    font-weight: 600;
+    font-size: 24px;
+    border:none
+}
+
+

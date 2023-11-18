@@ -1,0 +1,28 @@
+@import "../../../../assets/var.scss";
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  li{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    border:2px solid $secondary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:$secondary-color;
+    font-weight: 600;
+  }
+
+  .active{
+        color:#fff;
+        background-color: $secondary-color;
+  }
+}
+
+

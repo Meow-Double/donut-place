@@ -1,0 +1,36 @@
+@import "../../../assets/var.scss";
+
+.products {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 20px;
+
+  margin-bottom: 60px;
+
+  li {
+    justify-self: center;
+  }
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  li{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border:2px solid $secondary-color;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:$secondary-color;
+  }
+}
+

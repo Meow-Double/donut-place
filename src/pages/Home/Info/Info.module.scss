@@ -1,0 +1,59 @@
+@import "../../../assets/var.scss";
+
+.content {
+  padding: 100px 0px 160px 0px;
+  position: relative;
+  color: $main-color;
+  font-size: 20px;
+
+  .textRight {
+    max-width: 580px;
+    margin-left: auto;
+    margin-bottom: 160px;
+  }
+  .textLeft {
+    margin-top: 200px;
+    max-width: 580px;
+    margin-right: auto;
+  }
+}
+
+.decorDonut {
+  z-index: 1;
+  width: 620px;
+  height: 620px;
+  background-color: $secondary-color;
+  border-radius: 50%;
+  position: absolute;
+  top: -300px;
+  left: -200px;
+
+  img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.decorCup {
+  position: absolute;
+  bottom: -100px;
+  right: 30px;
+}
+.circle {
+  width: 500px;
+  height: 430px;
+}
+.cup {
+  top: -100px;
+  right: -60px;
+  transform: rotate(18deg);
+  width: 520px;
+  height: 430px;
+  object-fit: cover;
+  position: absolute;
+}

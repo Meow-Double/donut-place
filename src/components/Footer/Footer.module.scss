@@ -1,0 +1,72 @@
+@import "../../assets/var.scss";
+
+.footer {
+  background-color: #403d3d;
+  color: #fff;
+  padding: 30px;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 0px;
+}
+.inner{
+    padding: 0 30px;
+}
+.colums {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 40px;
+}
+.contacts {
+  h4 {
+    margin-bottom: 20px;
+  }
+  ul {
+    display: inline-block;
+    li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  li{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    background-color: $secondary-color;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background .3s ease-in-out;
+
+    img, svg{
+      width: 32px;
+      height: 32px;
+      path{
+        transition: fill .3s ease-in-out;
+      }
+    }
+
+    &:hover{
+      background-color: #fff;
+
+      svg{
+        path{
+          fill:$secondary-color;
+        }
+      }
+    }
+  }
+}
+
+.copyright {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 16px;
+}

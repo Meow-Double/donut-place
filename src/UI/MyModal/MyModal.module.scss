@@ -1,0 +1,32 @@
+@import "../../assets/var.scss";
+
+.overlay {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba($color: #000000, $alpha: 0.6);
+  @extend %flex-center;
+}
+.modal {
+  // opacity: 0;
+  // visibility: visible;
+  min-width: 200px;
+  max-width: 1000px;
+  height: auto;
+  background-color: $main-color;
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+}
+.active {
+    opacity: 1;
+    visibility: visible;
+}

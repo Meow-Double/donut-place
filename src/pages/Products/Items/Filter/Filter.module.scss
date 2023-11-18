@@ -1,0 +1,72 @@
+@import "../../../../assets/var.scss";
+
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    color: $main-color;
+    margin-bottom: 30px;
+  }
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  .sort {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    width: 330px;
+    height: 52px;
+    border: 2px solid $secondary-color;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: $secondary-color;
+  
+    p {
+      flex: 1 1;
+    }
+  
+    select {
+      border: none;
+      height: 100%;
+      background: transparent;
+      outline: none;
+      font-size: 20px;
+      color: inherit;
+      width: 100%;
+      flex: 3 1;
+    }
+  }
+  .search {
+    width: 320px;
+    height: 52px;
+    border: 2px solid $secondary-color;
+    border-radius: 12px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+      width: 20px;
+      height: 20px;
+    }
+    span{
+      cursor: pointer;
+    }
+    input {
+      border: none;
+      outline: none;
+      font-size: 20px;
+      color: $secondary-color;
+  
+      &::placeholder {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        color: $secondary-color;
+      }
+    }
+  }
